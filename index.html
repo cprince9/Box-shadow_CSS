@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-shadow</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        .container{
+            background-color: beige;
+            height: 840px;
+            border: 4px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box{
+            background-color: aquamarine;
+            width: 730px;
+            height: 530px;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+            /*box-shadow: 15px 6px 7px rgba(217, 0, 255, 0.349);*/
+            box-shadow: 15px 6px 7px rgba(217, 0, 255, 0.349);
+        }
+
+        #heading{
+            background-color: grey;
+            border-radius: 10px;
+            width: 200px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+
+            /*
+            transition-property: all;
+            transition-duration: 3s;
+            transition-delay: none;
+            transition-timing-function: cubic-bezier(0,-1.46, 0.72, 2.58);  
+            */
+
+            transition: all 3s cubic-bezier(0,-1.46, 0.72, 2.58) 0s;
+        }
+
+        #heading:hover{
+            width: 300px;
+            height: 48px;
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+ 
+        <div class="box">
+            <img src="image.gif" width="630px"/>
+            <br>
+            <br>
+            <h2 id="heading"><b>welcome Prince</b></h2>
+            <br>
+            <br>
+            <p> <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum minus ea voluptates, sed vero dignissimos impedit eos aspernatur voluptate commodi ipsam molestias, et quibusdam id minima. Repudiandae soluta totam facilis nisi voluptas consequuntur enim aliquid veniam, eum maiores aperiam dolores voluptatibus id sed illo a, ab, impedit sapiente neque delectus iste molestias illum nam nostrum. Obcaecati velit inventore assumenda ullam debitis, facere ipsam odio. Dolores tenetur cum ratione ea nemo in debitis eveniet perspiciatis temporibus quia, ipsam magnam dignissimos enim repellendus iste laborum est accusantium voluptatem rerum quae cupiditate officia excepturi. Cupiditate corrupti ipsa aliquam eum nulla in doloribus velit fuga porro maiores iusto quia atque architecto pariatur deserunt assumenda labore libero quisquam dolorum, expedita tempore voluptates temporibus aut est! Maxime soluta laboriosam quam tempore exercitationem doloremque deserunt qui rem, sed corrupti sint mollitia ea laborum dicta dolores quasi, voluptatum quidem quaerat eveniet facilis. Facere quibusdam aliquid officia aspernatur illo?</i></p>
+
+       
+
+    </div>
+</body>
+</html>
